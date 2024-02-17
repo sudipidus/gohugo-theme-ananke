@@ -18,3 +18,14 @@
 .nested-links a{
   overflow-wrap: break-word;
 }
+
+
+.sticky {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  z-index: 1000; /* Ensure the div stays on top of other content */
+}
